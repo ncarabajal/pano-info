@@ -144,7 +144,7 @@ def commit_changes(panorama):
     """
     Commits changes made to the panorama configuration
     """
-    panorama.commit(sync=True, sync_all=True, admin='my_admin_name')  # Add the admin argument
+    panorama.commit(sync=True, sync_all=True, admin='my_admin_name')  # Add your admin username in admin
 
 def main():
     policy_type = input("Enter rule type (security/nat): ")
